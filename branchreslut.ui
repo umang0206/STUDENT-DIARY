@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>branchshow</class>
+ <widget class="QMainWindow" name="branchshow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>637</width>
+    <height>525</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>BRANCH RESULT</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>638</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(250, 177, 88);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>165</x>
+      <y>136</y>
+      <width>150</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 13pt &quot;URW Bookman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>BRANCH</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="T1">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>131</y>
+      <width>144</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 13pt &quot;URW Bookman&quot;;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="T2">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>173</y>
+      <width>144</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 13pt &quot;URW Bookman&quot;;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="T3">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>214</y>
+      <width>144</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 13pt &quot;URW Bookman&quot;;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="T4">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>258</y>
+      <width>144</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 13pt &quot;URW Bookman&quot;;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>165</x>
+      <y>180</y>
+      <width>150</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 13pt &quot;URW Bookman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>TOTAL STUDENT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>165</x>
+      <y>220</y>
+      <width>150</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 13pt &quot;URW Bookman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>PASS STUDENT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>165</x>
+      <y>262</y>
+      <width>150</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 13pt &quot;URW Bookman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>FAIL STUDENT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>320</y>
+      <width>101</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 13pt &quot;URW Bookman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>PASSING %</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="T5">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>310</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>637</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

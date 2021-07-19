@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>studentdetail</class>
+ <widget class="QMainWindow" name="studentdetail">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>STUDENT DETAILS</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(138, 226, 52);
+background-color: rgb(123, 244, 136);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>99</y>
+      <width>71</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 75 14pt &quot;Ubuntu Condensed&quot;;</string>
+    </property>
+    <property name="text">
+     <string> Name</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>99</y>
+      <width>71</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 75 14pt &quot;Ubuntu Condensed&quot;;</string>
+    </property>
+    <property name="text">
+     <string> Roll NO.</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>99</y>
+      <width>71</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 75 14pt &quot;Ubuntu Condensed&quot;;</string>
+    </property>
+    <property name="text">
+     <string> Branch</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="D1">
+    <property name="geometry">
+     <rect>
+      <x>92</x>
+      <y>99</y>
+      <width>181</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="frame">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="D2">
+    <property name="geometry">
+     <rect>
+      <x>363</x>
+      <y>99</y>
+      <width>141</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="frame">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="D3">
+    <property name="geometry">
+     <rect>
+      <x>602</x>
+      <y>99</y>
+      <width>91</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B1">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>340</y>
+      <width>89</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(32, 74, 135);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>SUBMIT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>40</y>
+      <width>451</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 17pt &quot;Tibetan Machine Uni&quot;;</string>
+    </property>
+    <property name="text">
+     <string>STUDENT ACADEMY DETAILS</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B4">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>460</y>
+      <width>76</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(123, 244, 136);
+background-color: rgb(123, 244, 136);</string>
+    </property>
+    <property name="text">
+     <string>EXIT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>460</y>
+      <width>76</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(123, 244, 136);
+background-color: rgb(123, 244, 136);</string>
+    </property>
+    <property name="text">
+     <string>HOME</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B3">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>450</y>
+      <width>76</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string>background-color: rgb(123, 244, 136);
+background-color: rgb(123, 244, 136);</string>
+    </property>
+    <property name="text">
+     <string>CLEAR</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>174</y>
+      <width>80</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Subject  1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>203</y>
+      <width>80</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Subject  2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>230</y>
+      <width>80</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Subject  3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>260</y>
+      <width>80</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Subject  4</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>290</y>
+      <width>80</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Subject  5</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="T1">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>174</y>
+      <width>70</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="T2">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>202</y>
+      <width>70</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="T3">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>230</y>
+      <width>70</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="T4">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>260</y>
+      <width>70</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="T5">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>290</y>
+      <width>70</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
